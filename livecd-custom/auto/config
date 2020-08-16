@@ -12,5 +12,6 @@ lb config noauto \
     -d buster \
     --compression lzip \
     --system live \
+    --backports true \
     "${@}"
 

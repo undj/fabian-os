@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+    --mode debian \
+    --architectures amd64 \
+    --debian-installer live \
+    --archive-areas "main contrib non-free" \
+    --apt-indices false \
+    --memtest none \
+    -d buster \
+    --compression lzip \
+    --system live \
+    "${@}"
+

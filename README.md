@@ -19,8 +19,10 @@ lb config
 
 sudo lb clean; sudo lb build
 
-
 scripts on chroot:
+
     config/hooks/live/0100-workbench.hook.chroot
+
 Package lists:
+
     config/package-lists/

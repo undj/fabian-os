@@ -9,7 +9,7 @@ http://nerotux.tuxfamily.org/index.php/Articles/DebianLiveHowto
 
 ## Requested packages
 
-    apt install live-build
+    apt install live-build debootstrap squashfs-tools xorriso isolinux syslinux-efi grub-pc-bin grub-efi-amd64-bin mtools
 
 ## To speedup mirrors use
 

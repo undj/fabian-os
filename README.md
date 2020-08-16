@@ -2,6 +2,15 @@
 
 Debian LiveCD with custom software and logos from Fabian and installer 
 
+https://www.bustawin.com/create-a-custom-live-debian-9-the-pro-way/
+
+http://nerotux.tuxfamily.org/index.php/Articles/DebianLiveHowto
+
+
+## Requested packages
+
+    apt install live-build
+
 ## To speedup mirrors use
 
 LB_MIRROR_BOOTSTRAP="http://deb.debian.org/debian/"

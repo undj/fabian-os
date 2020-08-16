@@ -1,1 +1,7 @@
 /cache/**
+/live-image-*
+/binary*/**
+/chroot*/**
+/.build*/**
+/chroot.*
+/build.log

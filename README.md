@@ -26,3 +26,6 @@ scripts on chroot:
 Package lists:
 
     config/package-lists/
+
+livecd config:
+    auto/config

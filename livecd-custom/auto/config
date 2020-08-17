@@ -14,4 +14,7 @@ lb config noauto \
     --system live \
     --backports true \
     --bootappend-live "boot=live components locales=it_IT.UTF-8 keyboard-layouts=it" \
+    --mirror-bootstrap http://deb.debian.org/debian/ \
+    --mirror-binary-backports http://deb.debian.org/debian-backports/ \
+    --mirror-binary http://deb.debian.org/debian/ \
     "${@}"

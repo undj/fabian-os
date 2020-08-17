@@ -13,7 +13,7 @@ lb config noauto \
     --compression lzip \
     --system live \
     --backports true \
-    --bootappend-live "boot=live components locales=it_IT.UTF-8 keyboard-layouts=it" \
+    --bootappend-live "boot=live components locales=it_IT.UTF-8 keyboard-layouts=it splash" \
     --mirror-bootstrap http://deb.debian.org/debian/ \
     --mirror-binary http://deb.debian.org/debian/ \
     "${@}"

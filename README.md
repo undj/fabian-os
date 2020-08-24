@@ -19,7 +19,7 @@ apt-get update && apt-get upgrade
 sudo git clone https://github.com/undj/fabian-os
 
 # Sostituire i file del sistema con le personalizzazioni scaricate e rimuovere il file scaricato
-sudo rsync -avr fabian-os/usr/ usr/ && rm -r fabian-os
+sudo rsync -avr fabian-os/usr/ usr/ && sudo rm -r fabian-os
 
 # Configurare pacchetti non-free
 > https://wiki.debian.org/it/SourcesList#formato_di_sources.list

@@ -28,4 +28,4 @@ sudo rsync -avr fabian-os/usr/ usr/ && rm -r fabian-os
 # https://wiki.debian.org/Grub2
 
 # Change plymouth
-# https://wiki.debian.org/it/plymouth
+> https://wiki.debian.org/it/plymouth

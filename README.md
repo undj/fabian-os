@@ -5,15 +5,18 @@
 
 ### OPEN A TERMINAL ###
 
+username:   fabian
+password:   fabian
+root pass:  fabian
 
 # Aggiungere utente al gruppo sudo (logout and login required)
 adduser fabian -G sudo
 
 # Installare pacchetti
-apt-get install vlc blender thunderbird arduino fritzing evince gimp rsync git
+sudo apt-get install vlc blender thunderbird arduino fritzing evince gimp rsync git
 
 # Aggiornare pacchetti
-apt-get update && apt-get upgrade
+sudo apt-get update && apt-get upgrade
 
 # GitHub clonare directory con personalizzazioni Fabian
 sudo git clone https://github.com/undj/fabian-os

@@ -22,10 +22,10 @@ sudo git clone https://github.com/undj/fabian-os
 sudo rsync -avr fabian-os/usr/ usr/ && rm -r fabian-os
 
 # Configurare pacchetti non-free
-# https://wiki.debian.org/it/SourcesList#formato_di_sources.list
+> https://wiki.debian.org/it/SourcesList#formato_di_sources.list
 
 # Change grub image
-# https://wiki.debian.org/Grub2
+> https://wiki.debian.org/Grub2
 
 # Change plymouth
 > https://wiki.debian.org/it/plymouth

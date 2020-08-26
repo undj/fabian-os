@@ -1,0 +1,13 @@
+/cache/**
+/live-image-*
+/binary*/**
+/chroot*/**
+/.build*/**
+/chroot.*
+/build.log
+/config/source
+/config/binary
+/config/bootstrap
+/config/chroot
+/config/common
+

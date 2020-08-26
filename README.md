@@ -32,3 +32,36 @@ sudo rsync -avr fabian-os/usr/ usr/ && sudo rm -r fabian-os
 
 # Change plymouth
 > https://wiki.debian.org/it/plymouth
+
+
+=======
+# debian-live-build-fabian
+
+## Requested packages
+
+    apt install live-build debootstrap squashfs-tools xorriso isolinux syslinux-efi grub-pc-bin grub-efi-amd64-bin mtools
+
+## Build
+
+cd livecd-custom
+
+### Create chroot
+
+lb config
+
+### Clean and build
+
+sudo lb clean; sudo lb build
+
+scripts on chroot:
+
+    config/hooks/live/0100-workbench.hook.chroot
+
+Package lists:
+
+    config/package-lists/
+
+livecd config:
+
+    auto/config
+>>>>>>> other/master

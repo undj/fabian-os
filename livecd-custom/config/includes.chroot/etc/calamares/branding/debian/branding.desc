@@ -4,6 +4,7 @@ welcomeStyleCalamares: true
 
 strings:
     productName:         Debian GNU/Linux
+<<<<<<< refs/remotes/origin/master
     shortProductName:    Debian testing
     version:             11 (bullseye)
     shortVersion:        11
@@ -13,6 +14,17 @@ strings:
     productUrl:          https://debian.org
     supportUrl:          https://www.debian.org/support
     releaseNotesUrl:     https://www.debian.org/releases/bullseye/releasenotes
+=======
+    shortProductName:    Debian
+    version:             10 (buster)
+    shortVersion:        10
+    versionedName:       Debian 10 (buster)
+    shortVersionedName:  Debian 10
+    bootloaderEntryName: Debian
+    productUrl:          https://debian.org
+    supportUrl:          https://www.debian.org/support
+    releaseNotesUrl:     https://www.debian.org/releases/buster/releasenotes
+>>>>>>> Calamares extract in config/includes.chroot
 
 images:
     productLogo:         "debian-logo.png"

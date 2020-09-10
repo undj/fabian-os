@@ -1,7 +1,11 @@
 /* === This file is part of Calamares - <http://github.com/calamares> ===
  *
  *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
+<<<<<<< refs/remotes/origin/master
  *   Copyright 2018-2019, Jonathan Carter <jcc@debian.org>
+=======
+ *   Copyright 2018, Jonathan Carter <jcc@debian.org>
+>>>>>>> Calamares extract in config/includes.chroot
  *
  *   Calamares is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by

@@ -3,6 +3,7 @@ Upstream-Name: calamares-settings-debian
 Source: https://gitlab.com/highvoltage/calamares-settings-debian
 
 Files: *
+<<<<<<< refs/remotes/origin/master
 Copyright: 2016-2020, Jonathan Carter <jcc@debian.org>
 License: ISC
 
@@ -12,6 +13,13 @@ License: CC-BY-SA-3.0
 
 Files: debian/*
 Copyright: 2016-2020 Jonathan Carter <jcc@debian.org>
+=======
+Copyright: 2016-2018, Jonathan Carter <jcc@debian.org>
+License: ISC
+
+Files: debian/*
+Copyright: 2016-2018 Jonathan Carter <jcc@debian.org>
+>>>>>>> Calamares extract in config/includes.chroot
 License: ISC
 
 Files: calamares/branding/debian/show.qml
@@ -52,6 +60,7 @@ License: ISC
  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
  OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+<<<<<<< refs/remotes/origin/master
 
 License: CC-BY-SA-3.0
  THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
@@ -376,3 +385,5 @@ License: CC-BY-SA-3.0
  additional rights are deemed to be included in the License; this
  License is not intended to restrict the license of any rights under
 
+=======
+>>>>>>> Calamares extract in config/includes.chroot

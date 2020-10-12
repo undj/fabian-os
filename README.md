@@ -8,16 +8,20 @@ Guida operativa (README.md) :
 2) Update e upgrade del sistema
 
 3) Installare pacchetti consigliati
-sudo apt-get install git  live-build debootstrap squashfs-tools xorriso isolinux syslinux-efi grub-pc-bin grub-efi-amd64-bin mtools
+
+```sudo apt-get install git live-build debootstrap squashfs-tools xorriso isolinux syslinux-efi grub-pc-bin grub-efi-amd64-bin mtools```
 
 4) Scaricare il repository di Fabian da Github
+
 ```git clone https://github.com/undj/fabian-os```
 
 5) Spostarsi nella cartella dove è possibile generare l’ISO
-cd fabian-os/livecd-custom
+
+```cd fabian-os/livecd-custom```
 
 6) Generare l’ISO (processo lungo)
-lb build
+
+```lb build```
 
 
 

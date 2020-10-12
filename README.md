@@ -31,6 +31,6 @@ Loggarsi tramite google e caricare l’iso nel drive commentanto il file di test
 https://drive.google.com/drive/folders/176z5kik3Aw9pAr5b0tlHoYxK1FMbgBw1?hl=i
 
 
-    Documentazione estesa
+Documentazione estesa
 https://drive.google.com/drive/folders/1ax7TDqJ8GT2HI5_2woL459u6kmdnajRr
 

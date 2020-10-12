@@ -1,7 +1,7 @@
 Guida operativa (README.md) :
 
 
-    Generare l’ISO
+Generare l’ISO
 
 1) Installazione di Debian 10 LXDE 64 bit su Virtualbox (almeno 20GB spazio)
 
@@ -25,7 +25,7 @@ Guida operativa (README.md) :
 
 
 
-    Testare l’ISO
+Testare l’ISO
 
 Loggarsi tramite google e caricare l’iso nel drive commentanto il file di testo all’interno della cartella
 https://drive.google.com/drive/folders/176z5kik3Aw9pAr5b0tlHoYxK1FMbgBw1?hl=i

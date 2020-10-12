@@ -1,67 +1,32 @@
-# fabian-os
+Guida operativa (README.md) :
 
 
-# Installazione di Debian 10 LXDE 64 bit su VirtualBox
+    Generare l’ISO
 
-### OPEN A TERMINAL ###
+1) Installazione di Debian 10 LXDE 64 bit su Virtualbox (almeno 20GB spazio)
 
-username:   fabian
-password:   fabian
-root pass:  fabian
+2) Update e upgrade del sistema
 
-# Aggiungere utente al gruppo sudo (logout and login required)
-adduser fabian -G sudo
+3) Installare pacchetti consigliati
+sudo apt-get install git  live-build debootstrap squashfs-tools xorriso isolinux syslinux-efi grub-pc-bin grub-efi-amd64-bin mtools
 
-# Installare pacchetti
-sudo apt-get install vlc blender thunderbird arduino fritzing evince gimp rsync git
+4) Scaricare il repository di Fabian da Github
+git clone https://github.com/undj/fabian-os
 
-# Aggiornare pacchetti
-sudo apt-get update && apt-get upgrade
+5) Spostarsi nella cartella dove è possibile generare l’ISO
+cd fabian-os/livecd-custom
 
-# GitHub clonare directory con personalizzazioni Fabian
-sudo git clone https://github.com/undj/fabian-os
-
-# Sostituire i file del sistema con le personalizzazioni scaricate e rimuovere il file scaricato
-sudo rsync -avr fabian-os/usr/ usr/ && sudo rm -r fabian-os
-
-# Configurare pacchetti non-free
-> https://wiki.debian.org/it/SourcesList#formato_di_sources.list
-
-# Change grub image
-> https://wiki.debian.org/Grub2
-
-# Change plymouth
-> https://wiki.debian.org/it/plymouth
+6) Generare l’ISO (processo lungo)
+lb build
 
 
-=======
-# debian-live-build-fabian
 
-## Requested packages
+    Testare l’ISO
 
-    apt install live-build debootstrap squashfs-tools xorriso isolinux syslinux-efi grub-pc-bin grub-efi-amd64-bin mtools
+Loggarsi tramite google e caricare l’iso nel drive commentanto il file di testo all’interno della cartella
+https://drive.google.com/drive/folders/176z5kik3Aw9pAr5b0tlHoYxK1FMbgBw1?hl=i
 
-## Build
 
-cd livecd-custom
+    Documentazione estesa
+https://drive.google.com/drive/folders/1ax7TDqJ8GT2HI5_2woL459u6kmdnajRr
 
-### Create chroot
-
-lb config
-
-### Clean and build
-
-sudo lb clean; sudo lb build
-
-scripts on chroot:
-
-    config/hooks/live/0100-workbench.hook.chroot
-
-Package lists:
-
-    config/package-lists/
-
-livecd config:
-
-    auto/config
->>>>>>> other/master
